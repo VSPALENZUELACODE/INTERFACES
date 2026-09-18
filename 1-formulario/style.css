@@ -12,3 +12,15 @@ label {
     display: grid;
     margin-bottom: 10px;
 }
+
+input[type="submit"],
+input[type="reset"],
+textarea,
+input,
+body,
+option[value="masculino"] {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #fefefe, #d5d5d5);
+    box-shadow: 11px 11px 22px #b9b9b9,
+        -11px -11px 22px #ffffff;
+}
