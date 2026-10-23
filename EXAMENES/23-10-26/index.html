@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Formulario por partes</title>
+</head>
+
+<body>
+    <h1>Bienvenido al NeXo🤖</h1>
+    <form id="form1">
+        <div class="borde-guion">
+            <div class="main">
+                <p id="inicio" class="letra">Bienvenid@ a nuestros sistema, viajero. Necesitamos que te registres en el
+                    Nexo para poder atracar tu nave</p>
+                <input id="input"></input>
+                <button id="boton" type="button" onclick=siguiente()>SIGUIENTE</button>
+            </div>
+
+        </div>
+    </form>
+
+    <form  class="oculto" id="form2">
+        <div class="borde-guion">
+            <div class="main">
+                <p id="segundo" class="letra">Ahora necesitamos un correo electrónico para enviarte el cifrado de tu
+                    tarjeta de embarque</p>
+                <input id="input2"></input>
+                <button id="boton2" type="button" onclick=siguiente2()>SIGUIENTE</button>
+            </div>
+
+        </div>
+    </form>
+
+    <form  class="oculto" id="form3">
+        <div class="borde-guion">
+            <div class="main">
+                <p id="tercero" class="letra">Por último, debes cifrar tus datos con una contraseña. No pasa nada, te la
+                    enviaremos al correo proporcionado anteriormente</p>
+                <input id="input3"></input>
+                <button id="boton3" type="button" onclick=siguiente3()>SIGUIENTE</button>
+            </div>
+
+        </div>
+    </form>
+
+    <form  class="oculto" id="form4">
+        <div class="borde-guion">
+            <div class="main">
+                <p id="cuarto" class="letra">vamos a comprobar que todo esté bien introducido en el sistema</p>
+            </div>
+
+        </div>
+    </form>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
